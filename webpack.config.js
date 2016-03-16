@@ -2,7 +2,8 @@ module.exports = {
     // source
     entry: './index.jsx',
     output: {
-        path: 'dist',
+        path: __dirname,
+        publicPath: '/dist/',
         filename: 'bundle.js'
     },
     devtool: 'source-map',
