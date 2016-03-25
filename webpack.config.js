@@ -6,6 +6,9 @@ module.exports = {
         publicPath: '/dist/',
         filename: 'bundle.js'
     },
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    },
     devtool: 'source-map',
     module: {
         loaders: [
