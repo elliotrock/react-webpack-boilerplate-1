@@ -1,6 +1,6 @@
 module.exports = {
     // source
-    entry: './index.jsx',
+    entry: './app/app.jsx',
     output: {
         path: __dirname,
         publicPath: '/dist/',
